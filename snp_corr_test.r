@@ -42,7 +42,7 @@ corr <- snp_cor(
   size      = 200,
   alpha     = 1e-04,
   fill.diag = FALSE,
-  ncores    = 2
+  ncores    = 1
 )
 
 library(rbenchmark)
@@ -97,7 +97,7 @@ benchmark(
 )
 
 # create new data for testing large dataset (for snp_cor)
-NROWS <- 517 * 50 
+NROWS <- 517
 NCOLS <- 4542
 code <- rep(NA_real_, 256)
 code[1:3] <- c(0,1,2)
@@ -108,18 +108,34 @@ G_toyBig_CHR <- rep(1,NCOLS)
 
 G_toyBig_X <- G_toyBig$copy(code = CODE_IMPUTE_LABEL)
 
-snp_cor(
+NCORES <- 8
+G4 <- snp_fastImpute(G_toyBig, G_toyBig_CHR, ncores = NCORES)
+
+
+a <- snp_cor(
   Gna       = G_toyBig_X,
   ind.row   = sort(sample(nrow(G_toyBig_X), size = nrow(G_toyBig))),
   ind.col   = G_toyBig_CHR,
   size      = 200,
   alpha     = 1e-04,
   fill.diag = FALSE,
-  ncores    = 1
+  ncores    = 8
 )
 
+
+# for testing
+# snp_cor(
+#   Gna       = G_toyBig_X,
+#   ind.row   = sort(sample(nrow(G_toyBig_X), size = nrow(G_toyBig))),
+#   ind.col   = G_toyBig_CHR,
+#   size      = 200,
+#   alpha     = 1e-04,
+#   fill.diag = FALSE,
+#   ncores    = 1
+# )
+
 benchmark(
-  'snp_cor_1_toy' = {
+  'snp_cor_1_toy2' = {
     snp_cor(
       Gna       = G_toyBig_X,
       ind.row   = sort(sample(nrow(G_toyBig_X), size = nrow(G_toyBig))),
@@ -130,7 +146,7 @@ benchmark(
       ncores    = 1
     )
   },
-  'snp_cor_4_toy' = {
+  'snp_cor_4_toy2' = {
     snp_cor(
       Gna       = G_toyBig_X,
       ind.row   = sort(sample(nrow(G_toyBig_X), size = nrow(G_toyBig))),
@@ -141,7 +157,7 @@ benchmark(
       ncores    = 4
     )
   },
-  'snp_cor_8_toy' = {
+  'snp_cor_8_toy2' = {
     snp_cor(
       Gna       = G_toyBig_X,
       ind.row   = sort(sample(nrow(G_toyBig_X), size = nrow(G_toyBig))),
@@ -152,7 +168,7 @@ benchmark(
       ncores    = 8
     )
   },
-  'snp_cor_16_toy' = {
+  'snp_cor_16_toy2' = {
     snp_cor(
       Gna       = G_toyBig_X,
       ind.row   = sort(sample(nrow(G_toyBig_X), size = nrow(G_toyBig))),
@@ -167,4 +183,9 @@ benchmark(
   columns = c("test", "replications", "elapsed",
               "relative", "user.self", "sys.self")
 )
+
+
+
+
+
 

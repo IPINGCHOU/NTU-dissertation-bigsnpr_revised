@@ -1,0 +1,13 @@
+CXX = g++
+
+XGBOOST_ROOT = /home/bigsnpr_medicine/c_code/xgboost
+XGBOOST_FLAGS = -I$(XGBOOST_ROOT)/include -I$(XGBOOST_ROOT)/dmlc-core/include -I$(XGBOOST_ROOT)/rabit/include -I$(XGBOOST_ROOT)/R-package/src
+R_FLAGS = -I"/usr/local/lib/R/site-library/Rcpp/include" -I/usr/share/R/include -I/usr/local/lib/R/site-library/Rcpp/include  -I/usr/local/include
+
+LDFLAGS = $(XGBOOST_FLAGS) $(R_FLAGS) -l$(XGBOOST_ROOT)
+LDLIBS=-L$(XGBOOST_ROOT)/lib
+
+PKG_CXXFLAGS = $(SHLIB_OPENMP_CXXFLAGS) $(XGBOOST_FLAGS) $(R_FLAGS) -L$(XGBOOST_ROOT)
+PKG_LIBS = $(SHLIB_OPENMP_CXXFLAGS) $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS) -L$(XGBOOST_ROOT)/lib -lxgboost
+
+OBJECTS = RcppExports.o fastImpute_GPU.o $(SOURCES:.cpp=.o)

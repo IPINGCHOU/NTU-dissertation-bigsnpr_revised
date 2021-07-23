@@ -1,0 +1,50 @@
+Loading required package: bigstatsr
+Loading required package: foreach
+Loading required package: iterators
+[1] "rds path:  /home/bigsnpr_medicine/rds_temp/14k_8k.rds"
+[1] "CHR length:  8000"
+[1] "Matrix size:  14000  x  8000"
+[1] "Core:  16"
+[1] "Now using original version snpfastImpute with CPU"
+[1] "done"
+[1] "check imputed infos.imp and G"
+           [,1]       [,2]       [,3]       [,4]      [,5]       [,6]
+[1,] 0.04814286 0.05157143 0.04985714 0.04864286 0.0505000 0.05135714
+[2,] 0.66016504 0.67771084 0.66027809 0.67567568 0.6769462 0.66051938
+           [,7]       [,8]       [,9]      [,10]
+[1,] 0.04921429 0.05278571 0.05028571 0.04757143
+[2,] 0.66691701 0.65133811 0.66654135 0.66329209
+     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+0    4330 4424 4466 4503 4421 4469 4419 4391 4437  4475
+1    4476 4419 4439 4398 4447 4353 4448 4443 4447  4415
+2    4520 4435 4397 4418 4425 4459 4444 4427 4412  4444
+<NA>  674  722  698  681  707  719  689  739  704   666
+     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+0    4330 4424 4466 4503 4421 4469 4419 4391 4437  4475
+1    5150 5141 5137 5079 5154 5072 5137 5182 5151  5081
+2    4520 4435 4397 4418 4425 4459 4444 4427 4412  4444
+<NA>    0    0    0    0    0    0    0    0    0     0
+[1] "checked"
+	Command being timed: "Rscript --vanilla fastImpute_GPU_serial.R 16 3 /home/bigsnpr_medicine/fake_snps/twcc_fake_snps/14k_8k_0.05.bed /home/bigsnpr_medicine/rds_temp/14k_8k"
+	User time (seconds): 49806.38
+	System time (seconds): 295.70
+	Percent of CPU this job got: 1138%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:13:19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1284612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 168964809
+	Voluntary context switches: 3073536
+	Involuntary context switches: 2405398
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 440632
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

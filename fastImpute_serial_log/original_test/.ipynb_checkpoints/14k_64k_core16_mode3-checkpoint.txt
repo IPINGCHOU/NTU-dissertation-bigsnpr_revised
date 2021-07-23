@@ -1,0 +1,8 @@
+Loading required package: bigstatsr
+Loading required package: foreach
+Loading required package: iterators
+[1] "rds path:  /home/bigsnpr_medicine/rds_temp/14k_64k.rds"
+[1] "CHR length:  64000"
+[1] "Matrix size:  14000  x  64000"
+[1] "Core:  16"
+[1] "Now using original version snpfastImpute with CPU"

@@ -1,0 +1,212 @@
+Loading required package: bigstatsr
+Loading required package: foreach
+Loading required package: iterators
+[1] "rds path:  /home/bigsnpr_medicine/rds_temp/14k_2k.rds"
+[1] "CHR length:  2000"
+[1] "Matrix size:  14000  x  2000"
+[1] "Core:  16"
+[1] "Now using CPU version snpfastImpute"
+[1] "Preprocessing..."
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.05833006 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.39553 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.07392216 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.19718 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08803391 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.14544 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.09121704 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.70532 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.07881927 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.24843 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.07707953 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.34324 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.09385371 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.46336 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08093572 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.49077 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08454657 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.07791 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08607507 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.29274 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.06861186 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.34221 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.06393433 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.2462 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.06999159 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.75603 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.07080865 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.17178 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.07951546 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.1971 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08688593 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.65954 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08870745 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.34315 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08381915 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.25857 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08145261 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.26767 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.07963467 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.4647 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08016825 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.66609 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.07766628 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.34472 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.08200765 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 53.06579 secs
+[1] "done"
+[1] "check imputed infos.imp and G"
+           [,1]       [,2]       [,3]      [,4]       [,5]       [,6]
+[1,] 0.04921429 0.05042857 0.04664286 0.0480000 0.04964286 0.04871429
+[2,] 0.66841908 0.67769838 0.65655431 0.6714179 0.67568583 0.66178679
+           [,7]       [,8]      [,9]      [,10]
+[1,] 0.04964286 0.05071429 0.0505000 0.04892857
+[2,] 0.67681323 0.65801354 0.6731854 0.65339842
+     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+0    4505 4332 4338 4321 4574 4431 4461 4435 4523  4492
+1    4378 4491 4514 4421 4349 4519 4383 4370 4329  4463
+2    4428 4471 4495 4586 4382 4368 4461 4485 4441  4360
+<NA>  689  706  653  672  695  682  695  710  707   685
+     [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+0    4505 4332 4338 4321 4574 4431 4461 4435 4523  4492
+1    5067 5197 5167 5093 5044 5201 5078 5080 5036  5148
+2    4428 4471 4495 4586 4382 4368 4461 4485 4441  4360
+<NA>    0    0    0    0    0    0    0    0    0     0
+[1] "checked"
+	Command being timed: "Rscript --vanilla fastImpute_GPU_serial.R 16 2 /home/bigsnpr_medicine/fake_snps/twcc_fake_snps/14k_2k_0.05.bed /home/bigsnpr_medicine/rds_temp/14k_2k"
+	User time (seconds): 17.74
+	System time (seconds): 7.02
+	Percent of CPU this job got: 2%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 20:31.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 288064
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 886703
+	Voluntary context switches: 4607
+	Involuntary context switches: 2998
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 55240
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

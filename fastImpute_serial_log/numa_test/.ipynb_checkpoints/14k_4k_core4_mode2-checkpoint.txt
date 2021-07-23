@@ -1,0 +1,119 @@
+Loading required package: bigstatsr
+Loading required package: foreach
+Loading required package: iterators
+[1] "rds path:  /home/bigsnpr_medicine/rds_temp/14k_4k.rds"
+[1] "CHR length:  4000"
+[1] "Matrix size:  14000  x  4000"
+[1] "Core:  4"
+[1] "Now using CPU version snpfastImpute"
+[1] "Preprocessing..."
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.2988119 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.67076 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3188479 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.35216 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.322196 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.33586 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3189278 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.31283 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3146839 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.2436 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3017437 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.3292 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3024242 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.43898 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.301914 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.30821 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3170903 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.19639 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3000207 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.31886 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.293479 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.35075 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.2987866 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.42412 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3144059 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.37778 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.310359 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.21304 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3206508 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'
+[1] "End imputation..."
+Time difference of 21.45304 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.3109927 secs
+[1] "Start imputation..."
+socket cluster with 4 nodes on host 'localhost'

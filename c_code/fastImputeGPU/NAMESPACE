@@ -1,0 +1,3 @@
+useDynLib(fastImputeGPU, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

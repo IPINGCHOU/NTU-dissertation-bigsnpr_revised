@@ -1,0 +1,48 @@
+Loading required package: bigstatsr
+Loading required package: foreach
+Loading required package: iterators
+[1] "rds path:  /home/bigsnpr_medicine/rds_temp/14k_1k.rds"
+[1] "CHR length:  1000"
+[1] "Matrix size:  14000  x  1000"
+[1] "Core:  16"
+[1] "Now using CPU version snpfastImpute"
+[1] "Preprocessing..."
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.05532241 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host ‘localhost’
+[1] "End imputation..."
+Time difference of 7.583006 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.06353879 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host ‘localhost’
+[1] "End imputation..."
+Time difference of 7.493598 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.04193687 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host ‘localhost’
+[1] "End imputation..."
+Time difference of 7.366355 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.07105494 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host ‘localhost’
+[1] "End imputation..."
+Time difference of 7.399461 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.06948662 secs
+[1] "Start imputation..."
+socket cluster with 16 nodes on host ‘localhost’
+[1] "End imputation..."
+Time difference of 7.608998 secs
+[1] "Corr computing..."
+[1] "Corr computed..."
+Time difference of 0.04160404 secs
+[1] "Start imputation..."
